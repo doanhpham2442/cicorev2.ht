@@ -1,0 +1,16 @@
+CRITICAL - 2022-11-03 02:45:15 --> Undefined variable: attributeCatalogue
+#0 D:\OpenServer\domains\cicorev2.com\app\Views\backend\product\product\include\variant.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 75, Array)
+#1 D:\OpenServer\domains\cicorev2.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\cicorev2.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/product...', Array, true)
+#3 D:\OpenServer\domains\cicorev2.com\app\Views\backend\product\product\store.php(37): view('backend/product...')
+#4 D:\OpenServer\domains\cicorev2.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\cicorev2.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/product...', Array, true)
+#6 D:\OpenServer\domains\cicorev2.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/product...')
+#7 D:\OpenServer\domains\cicorev2.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\cicorev2.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\cicorev2.com\app\Controllers\Backend\Product\Product.php(111): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\cicorev2.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Product\Product->update(10)
+#11 D:\OpenServer\domains\cicorev2.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Product\Product))
+#12 D:\OpenServer\domains\cicorev2.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\cicorev2.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}

@@ -1,0 +1,692 @@
+CRITICAL - 2022-10-08 04:12:00 --> Call to a member function contents() on array
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 04:12:11 --> syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\OpenServerPa...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\C...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\C...')
+#3 E:\OpenServerPanel\domains\cicore.com\app\Config\Services.php(358): spl_autoload_call('App\\Libraries\\C...')
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Config\BaseService.php(123): Config\Services::Cartbie(false)
+#5 E:\OpenServerPanel\domains\cicore.com\app\Config\Services.php(355): CodeIgniter\Config\BaseService::getSharedInstance('cartbie')
+#6 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Common.php(957): Config\Services::Cartbie()
+#7 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(29): service('cartbie')
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Frontend\Cart\Cart->__construct()
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#10 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-08 04:12:12 --> syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\OpenServerPa...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\C...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\C...')
+#3 E:\OpenServerPanel\domains\cicore.com\app\Config\Services.php(358): spl_autoload_call('App\\Libraries\\C...')
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Config\BaseService.php(123): Config\Services::Cartbie(false)
+#5 E:\OpenServerPanel\domains\cicore.com\app\Config\Services.php(355): CodeIgniter\Config\BaseService::getSharedInstance('cartbie')
+#6 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Common.php(957): Config\Services::Cartbie()
+#7 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(29): service('cartbie')
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Frontend\Cart\Cart->__construct()
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#10 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-08 04:12:14 --> Undefined index: product_id
+#0 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 43, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-08 04:12:15 --> Undefined index: product_id
+#0 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 43, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-08 04:14:47 --> Call to undefined method App\Repositories\ProductRepository::findAllVoucherCartByProductId()
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 04:14:48 --> Call to undefined method App\Repositories\ProductRepository::findAllVoucherCartByProductId()
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 04:15:03 --> Undefined variable: product_id
+#0 E:\OpenServerPanel\domains\cicore.com\app\Repositories\VoucherRepository.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 63, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(50): App\Repositories\VoucherRepository->findAllVoucherCartByProductId(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 04:15:04 --> Undefined variable: product_id
+#0 E:\OpenServerPanel\domains\cicore.com\app\Repositories\VoucherRepository.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 63, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(50): App\Repositories\VoucherRepository->findAllVoucherCartByProductId(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 21:15:58 --> Call to undefined method App\Libraries\Cartbie::findAllVoucherByCart()
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-08 21:16:00 --> Call to undefined method App\Libraries\Cartbie::findAllVoucherByCart()
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-08 21:16:13 --> Call to undefined method App\Repositories\VoucherRepository::findAllVoucherCartByProductId()
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:16:14 --> Call to undefined method App\Repositories\VoucherRepository::findAllVoucherCartByProductId()
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:28:20 --> Array to string conversion
+#0 E:\OpenServerPanel\domains\cicore.com\app\Views\frontend\cart\include\cart.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\OpenServerPa...', 51, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/cart/i...', Array, true)
+#3 E:\OpenServerPanel\domains\cicore.com\app\Views\frontend\cart\index.php(100): view('frontend/cart/i...')
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/cart/i...', Array, true)
+#6 E:\OpenServerPanel\domains\cicore.com\app\Views\frontend\homepage\layout\home.php(52): view('frontend/cart/i...')
+#7 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#9 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(53): view('frontend/homepa...', Array)
+#10 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#11 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#12 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-10-08 21:47:04 --> syntax error, unexpected ''để có thể áp dụng m�' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:47:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-08 21:47:28 --> syntax error, unexpected ''để có thể áp dụng m�' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:47:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-08 21:47:33 --> syntax error, unexpected ''để có thể áp dụng m�' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:47:33 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-08 21:47:41 --> syntax error, unexpected ''để có thể áp dụng m�' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:47:41 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-08 21:47:55 --> syntax error, unexpected ''để có thể áp dụng m�' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:47:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-08 21:48:47 --> Call to undefined method App\Controllers\Ajax\Cart::checkVoucherMinItemCondition()
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(128): App\Controllers\Ajax\Cart->checkVoucherCondition(Array)
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Cart->applyVoucher()
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:49:14 --> syntax error, unexpected ''để có thể áp dụng m�' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:49:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-08 21:49:22 --> syntax error, unexpected ''để có thể áp dụng m�' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:49:22 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-08 21:49:30 --> syntax error, unexpected ''để có thể áp dụng m�' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:49:30 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-08 21:50:05 --> syntax error, unexpected ''để có thể áp dụng m�' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:50:05 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-08 21:51:30 --> syntax error, unexpected 'cartTotalItem' (T_STRING)
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:51:43 --> syntax error, unexpected ''để có thể áp dụng m�' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:51:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-08 21:57:48 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:57:56 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:58:13 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/cart/apply...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/cart/apply...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:58:22 --> Undefined property: App\Controllers\Ajax\Cart::$cartTotalItems
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\OpenServerPa...', 136, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Cart->applyVoucher()
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:59:54 --> Undefined index: module
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Promotion.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 35, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Promotion->search()
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Promotion))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 21:59:55 --> Undefined index: module
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Promotion.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 35, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Promotion->search()
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Promotion))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 22:13:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:13:43
+            AND tb1.end_at >= 2022-10-09 10:13:43
+            AND tb1' at line 12
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('\r\n         SELE...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('\r\n         SELE...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n         SELE...')
+#3 E:\OpenServerPanel\domains\cicore.com\app\Models\AutoloadModel.php(18): CodeIgniter\Database\BaseConnection->query('\r\n         SELE...')
+#4 E:\OpenServerPanel\domains\cicore.com\app\Repositories\VoucherRepository.php(101): App\Models\AutoloadModel->_query('\r\n         SELE...')
+#5 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(48): App\Repositories\VoucherRepository->findAllVoucherCart(Array)
+#6 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#7 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-08 22:13:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:13:44
+            AND tb1.end_at >= 2022-10-09 10:13:44
+            AND tb1' at line 12
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('\r\n         SELE...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('\r\n         SELE...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n         SELE...')
+#3 E:\OpenServerPanel\domains\cicore.com\app\Models\AutoloadModel.php(18): CodeIgniter\Database\BaseConnection->query('\r\n         SELE...')
+#4 E:\OpenServerPanel\domains\cicore.com\app\Repositories\VoucherRepository.php(101): App\Models\AutoloadModel->_query('\r\n         SELE...')
+#5 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(48): App\Repositories\VoucherRepository->findAllVoucherCart(Array)
+#6 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#7 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-08 22:17:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.countLimitValue
+         FROM vouchers as tb1
+         INNER JOIN voucher_pro' at line 8
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('\r\n         SELE...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('\r\n         SELE...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n         SELE...')
+#3 E:\OpenServerPanel\domains\cicore.com\app\Models\AutoloadModel.php(18): CodeIgniter\Database\BaseConnection->query('\r\n         SELE...')
+#4 E:\OpenServerPanel\domains\cicore.com\app\Repositories\VoucherRepository.php(117): App\Models\AutoloadModel->_query('\r\n         SELE...')
+#5 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(48): App\Repositories\VoucherRepository->findAllVoucherCart(Array)
+#6 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#7 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-08 22:18:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.countLimitValue
+         FROM vouchers as tb1
+         INNER JOIN voucher_pro' at line 8
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('\r\n         SELE...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('\r\n         SELE...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n         SELE...')
+#3 E:\OpenServerPanel\domains\cicore.com\app\Models\AutoloadModel.php(18): CodeIgniter\Database\BaseConnection->query('\r\n         SELE...')
+#4 E:\OpenServerPanel\domains\cicore.com\app\Repositories\VoucherRepository.php(117): App\Models\AutoloadModel->_query('\r\n         SELE...')
+#5 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(48): App\Repositories\VoucherRepository->findAllVoucherCart(Array)
+#6 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#7 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-08 22:18:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.countLimitValue
+         FROM vouchers as tb1
+         INNER JOIN voucher_pro' at line 8
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('\r\n         SELE...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('\r\n         SELE...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n         SELE...')
+#3 E:\OpenServerPanel\domains\cicore.com\app\Models\AutoloadModel.php(18): CodeIgniter\Database\BaseConnection->query('\r\n         SELE...')
+#4 E:\OpenServerPanel\domains\cicore.com\app\Repositories\VoucherRepository.php(117): App\Models\AutoloadModel->_query('\r\n         SELE...')
+#5 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(48): App\Repositories\VoucherRepository->findAllVoucherCart(Array)
+#6 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#7 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-08 22:18:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.countLimitValue
+         FROM vouchers as tb1
+         INNER JOIN voucher_pro' at line 8
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('\r\n         SELE...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('\r\n         SELE...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n         SELE...')
+#3 E:\OpenServerPanel\domains\cicore.com\app\Models\AutoloadModel.php(18): CodeIgniter\Database\BaseConnection->query('\r\n         SELE...')
+#4 E:\OpenServerPanel\domains\cicore.com\app\Repositories\VoucherRepository.php(117): App\Models\AutoloadModel->_query('\r\n         SELE...')
+#5 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(48): App\Repositories\VoucherRepository->findAllVoucherCart(Array)
+#6 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#7 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-08 22:18:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.countLimitValue
+         FROM vouchers as tb1
+         INNER JOIN voucher_pro' at line 8
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('\r\n         SELE...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('\r\n         SELE...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n         SELE...')
+#3 E:\OpenServerPanel\domains\cicore.com\app\Models\AutoloadModel.php(18): CodeIgniter\Database\BaseConnection->query('\r\n         SELE...')
+#4 E:\OpenServerPanel\domains\cicore.com\app\Repositories\VoucherRepository.php(117): App\Models\AutoloadModel->_query('\r\n         SELE...')
+#5 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(48): App\Repositories\VoucherRepository->findAllVoucherCart(Array)
+#6 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#7 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-08 22:18:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.countLimitValue
+         FROM vouchers as tb1
+         INNER JOIN voucher_pro' at line 8
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('\r\n         SELE...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('\r\n         SELE...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n         SELE...')
+#3 E:\OpenServerPanel\domains\cicore.com\app\Models\AutoloadModel.php(18): CodeIgniter\Database\BaseConnection->query('\r\n         SELE...')
+#4 E:\OpenServerPanel\domains\cicore.com\app\Repositories\VoucherRepository.php(117): App\Models\AutoloadModel->_query('\r\n         SELE...')
+#5 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(48): App\Repositories\VoucherRepository->findAllVoucherCart(Array)
+#6 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#7 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-08 22:18:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.countLimitValue
+         FROM vouchers as tb1
+         INNER JOIN voucher_pro' at line 8
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('\r\n         SELE...')
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('\r\n         SELE...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n         SELE...')
+#3 E:\OpenServerPanel\domains\cicore.com\app\Models\AutoloadModel.php(18): CodeIgniter\Database\BaseConnection->query('\r\n         SELE...')
+#4 E:\OpenServerPanel\domains\cicore.com\app\Repositories\VoucherRepository.php(117): App\Models\AutoloadModel->_query('\r\n         SELE...')
+#5 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(48): App\Repositories\VoucherRepository->findAllVoucherCart(Array)
+#6 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(47): App\Libraries\Cartbie->findVoucherCart(Array)
+#7 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-08 22:22:06 --> Undefined variable: voucher
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 184, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(149): App\Controllers\Ajax\Cart->checkVoucherMinCartTotalCondition(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(121): App\Controllers\Ajax\Cart->checkVoucherCondition(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Cart->applyVoucher()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:22:07 --> Undefined variable: voucher
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 184, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(149): App\Controllers\Ajax\Cart->checkVoucherMinCartTotalCondition(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(121): App\Controllers\Ajax\Cart->checkVoucherCondition(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Cart->applyVoucher()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:22:10 --> Undefined variable: voucher
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 184, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(149): App\Controllers\Ajax\Cart->checkVoucherMinCartTotalCondition(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(121): App\Controllers\Ajax\Cart->checkVoucherCondition(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Cart->applyVoucher()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:23:04 --> Undefined variable: cartTotal
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 185, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(149): App\Controllers\Ajax\Cart->checkVoucherMinCartTotalCondition(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(121): App\Controllers\Ajax\Cart->checkVoucherCondition(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Cart->applyVoucher()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:25:13 --> Call to undefined method CodeIgniterCart\Cart::subTotal()
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/cart/i...', Array, true)
+#2 E:\OpenServerPanel\domains\cicore.com\app\Views\frontend\cart\index.php(100): view('frontend/cart/i...')
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/cart/i...', Array, true)
+#5 E:\OpenServerPanel\domains\cicore.com\app\Views\frontend\homepage\layout\home.php(52): view('frontend/cart/i...')
+#6 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#7 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#8 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(53): view('frontend/homepa...', Array)
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#10 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#11 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-08 22:27:44 --> Undefined variable: response
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 192, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(149): App\Controllers\Ajax\Cart->checkVoucherMinCartTotalCondition(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(121): App\Controllers\Ajax\Cart->checkVoucherCondition(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Cart->applyVoucher()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:27:51 --> Undefined variable: response
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 192, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(149): App\Controllers\Ajax\Cart->checkVoucherMinCartTotalCondition(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(121): App\Controllers\Ajax\Cart->checkVoucherCondition(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Cart->applyVoucher()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:28:03 --> Undefined variable: response
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 192, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(149): App\Controllers\Ajax\Cart->checkVoucherMinCartTotalCondition(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(121): App\Controllers\Ajax\Cart->checkVoucherCondition(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Cart->applyVoucher()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:28:41 --> Undefined variable: response
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(194): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 194, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(151): App\Controllers\Ajax\Cart->checkVoucherMinCartTotalCondition(Array)
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(121): App\Controllers\Ajax\Cart->checkVoucherCondition(Array)
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Cart->applyVoucher()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:29:59 --> Undefined index: code
+#0 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Ajax\Cart.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 123, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Cart->applyVoucher()
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-08 22:37:17 --> syntax error, unexpected '?>'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/cart/i...', Array, true)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Views\frontend\cart\index.php(100): view('frontend/cart/i...')
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/cart/i...', Array, true)
+#4 E:\OpenServerPanel\domains\cicore.com\app\Views\frontend\homepage\layout\home.php(52): view('frontend/cart/i...')
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#6 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#7 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(54): view('frontend/homepa...', Array)
+#8 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#9 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#10 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-08 22:46:09 --> Undefined variable: voucherCode
+#0 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 18, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(46): App\Libraries\Cartbie->formatCart(Object(CodeIgniterCart\Cart))
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-08 22:46:10 --> Undefined variable: voucherCode
+#0 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 18, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(46): App\Libraries\Cartbie->formatCart(Object(CodeIgniterCart\Cart))
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-08 22:49:30 --> array_column() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'E:\\OpenServerPa...', 19, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(19): array_column('product_id')
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(46): App\Libraries\Cartbie->formatCart(Object(CodeIgniterCart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:49:31 --> array_column() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'E:\\OpenServerPa...', 19, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(19): array_column('product_id')
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(46): App\Libraries\Cartbie->formatCart(Object(CodeIgniterCart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:49:55 --> array_column() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'E:\\OpenServerPa...', 19, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(19): array_column(Object(CodeIgniter\Database\Query), 'product_id')
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(46): App\Libraries\Cartbie->formatCart(Object(CodeIgniterCart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:49:56 --> array_column() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'E:\\OpenServerPa...', 19, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(19): array_column(Object(CodeIgniter\Database\Query), 'product_id')
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(46): App\Libraries\Cartbie->formatCart(Object(CodeIgniterCart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:49:56 --> array_column() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'E:\\OpenServerPa...', 19, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(19): array_column(Object(CodeIgniter\Database\Query), 'product_id')
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(46): App\Libraries\Cartbie->formatCart(Object(CodeIgniterCart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:49:56 --> array_column() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'E:\\OpenServerPa...', 19, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(19): array_column(Object(CodeIgniter\Database\Query), 'product_id')
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(46): App\Libraries\Cartbie->formatCart(Object(CodeIgniterCart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:49:56 --> array_column() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'E:\\OpenServerPa...', 19, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(19): array_column(Object(CodeIgniter\Database\Query), 'product_id')
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(46): App\Libraries\Cartbie->formatCart(Object(CodeIgniterCart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 22:49:57 --> array_column() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'E:\\OpenServerPa...', 19, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(19): array_column(Object(CodeIgniter\Database\Query), 'product_id')
+#2 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(46): App\Libraries\Cartbie->formatCart(Object(CodeIgniterCart\Cart))
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#5 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-08 23:18:35 --> Undefined variable: productApplyVoucher
+#0 E:\OpenServerPanel\domains\cicore.com\app\Libraries\Cartbie.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 18, Array)
+#1 E:\OpenServerPanel\domains\cicore.com\app\Controllers\Frontend\Cart\Cart.php(46): App\Libraries\Cartbie->formatCart(Object(CodeIgniterCart\Cart))
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#3 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#4 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-08 23:22:13 --> Call to private method App\Libraries\Cartbie::voucherApplyed() from context 'App\Controllers\Frontend\Cart\Cart'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-08 23:22:37 --> Call to private method App\Libraries\Cartbie::voucherApplyed() from context 'App\Controllers\Frontend\Cart\Cart'
+#0 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Cart\Cart->index()
+#1 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Cart\Cart))
+#2 E:\OpenServerPanel\domains\cicore.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\OpenServerPanel\domains\cicore.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}

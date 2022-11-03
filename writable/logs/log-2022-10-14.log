@@ -1,0 +1,28 @@
+CRITICAL - 2022-10-14 20:19:45 --> syntax error, unexpected 'return' (T_RETURN), expecting ';'
+#0 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\OpenServerPa...')
+#1 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Repositorie...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Repositorie...')
+#3 E:\OpenServerPanel\domains\cicorev2.com\app\Config\Services.php(195): spl_autoload_call('App\\Repositorie...')
+#4 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\Config\BaseService.php(123): Config\Services::AttributeCatalogueRepository('attribute_catal...', false)
+#5 E:\OpenServerPanel\domains\cicorev2.com\app\Config\Services.php(192): CodeIgniter\Config\BaseService::getSharedInstance('attributecatalo...', 'attribute_catal...')
+#6 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\Common.php(957): Config\Services::AttributeCatalogueRepository('attribute_catal...')
+#7 E:\OpenServerPanel\domains\cicorev2.com\app\Controllers\Backend\Product\Product.php(26): service('AttributeCatalo...', 'attribute_catal...')
+#8 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Backend\Product\Product->__construct()
+#9 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#10 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\OpenServerPanel\domains\cicorev2.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-14 20:19:46 --> syntax error, unexpected 'return' (T_RETURN), expecting ';'
+#0 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\OpenServerPa...')
+#1 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Repositorie...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Repositorie...')
+#3 E:\OpenServerPanel\domains\cicorev2.com\app\Config\Services.php(195): spl_autoload_call('App\\Repositorie...')
+#4 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\Config\BaseService.php(123): Config\Services::AttributeCatalogueRepository('attribute_catal...', false)
+#5 E:\OpenServerPanel\domains\cicorev2.com\app\Config\Services.php(192): CodeIgniter\Config\BaseService::getSharedInstance('attributecatalo...', 'attribute_catal...')
+#6 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\Common.php(957): Config\Services::AttributeCatalogueRepository('attribute_catal...')
+#7 E:\OpenServerPanel\domains\cicorev2.com\app\Controllers\Backend\Product\Product.php(26): service('AttributeCatalo...', 'attribute_catal...')
+#8 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Backend\Product\Product->__construct()
+#9 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#10 E:\OpenServerPanel\domains\cicorev2.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\OpenServerPanel\domains\cicorev2.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}

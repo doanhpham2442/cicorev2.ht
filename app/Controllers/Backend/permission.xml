@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Nhóm - [Sản phẩm]</title>
+		<item>
+			<param>backend/product/catalogue/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/product/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/product/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/product/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Danh sách - [Sản phẩm]</title>
+		<item>
+			<param>backend/product/product/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/product/product/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/product/product/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/product/product/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+   <permissions>
+      <title>Nhóm - [Thuộc tính]</title>
+      <item>
+         <param>backend/attribute/catalogue/index</param>
+         <description>Xem</description>
+      </item>
+      <item>
+         <param>backend/attribute/catalogue/create</param>
+         <description>Thêm</description>
+      </item>
+      <item>
+         <param>backend/attribute/catalogue/update</param>
+         <description>Sửa</description>
+      </item>
+      <item>
+         <param>backend/attribute/catalogue/delete</param>
+         <description>Xóa</description>
+      </item>
+   </permissions>
+   <permissions>
+      <title>[Thuộc tính]</title>
+      <item>
+         <param>backend/attribute/attribute/index</param>
+         <description>Xem</description>
+      </item>
+      <item>
+         <param>backend/attribute/attribute/create</param>
+         <description>Thêm</description>
+      </item>
+      <item>
+         <param>backend/attribute/attribute/update</param>
+         <description>Sửa</description>
+      </item>
+      <item>
+         <param>backend/attribute/attribute/delete</param>
+         <description>Xóa</description>
+      </item>
+   </permissions>
+   <permissions>
+      <title>Order - [Đơn hàng]</title>
+      <item>
+         <param>backend/order/order/index</param>
+         <description>Xem</description>
+      </item>
+      <item>
+         <param>backend/order/order/create</param>
+         <description>Thêm</description>
+      </item>
+      <item>
+         <param>backend/order/order/update</param>
+         <description>Sửa</description>
+      </item>
+      <item>
+         <param>backend/order/order/delete</param>
+         <description>Xóa</description>
+      </item>
+   </permissions>
+   <permissions>
+      <title>Danh sách - [Review]</title>
+      <item>
+         <param>backend/review/review/index</param>
+         <description>Xem</description>
+      </item>
+      <item>
+         <param>backend/review/review/create</param>
+         <description>Thêm</description>
+      </item>
+      <item>
+         <param>backend/review/review/update</param>
+         <description>Sửa</description>
+      </item>
+      <item>
+         <param>backend/review/review/delete</param>
+         <description>Xóa</description>
+      </item>
+   </permissions>
+   <permissions>
+		<title>Khuyến Mãi - [Chương trình]</title>
+		<item>
+			<param>backend/marketing/promotion/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/marketing/promotion/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/marketing/promotion/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/marketing/promotion/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+   <permissions>
+		<title>Mã Khuyến Mãi - [Voucher]</title>
+		<item>
+			<param>backend/marketing/voucher/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/marketing/voucher/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/marketing/voucher/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/marketing/voucher/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Nhóm - [Bài viết]</title>
+		<item>
+			<param>backend/article/catalogue/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/article/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/article/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/article/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Danh sách - [Bài viết]</title>
+		<item>
+			<param>backend/article/article/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/article/article/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/article/article/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/article/article/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Nhóm - [Media]</title>
+		<item>
+			<param>backend/media/catalogue/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/media/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/media/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/media/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Danh sách - [Media]</title>
+		<item>
+			<param>backend/media/media/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/media/media/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/media/media/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/media/media/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Nhóm - [Thành viên]</title>
+		<item>
+			<param>backend/user/catalogue/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/user/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/user/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/user/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Tài khoản - [Thành viên]</title>
+		<item>
+			<param>backend/user/user/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/user/user/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/user/user/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/user/user/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Quản lý - [Liên hệ]</title>
+		<item>
+			<param>backend/contact/contact/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/contact/contact/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/contact/contact/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/contact/contact/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+
+	<permissions>
+		<title>Quản lý - [Menu]</title>
+		<item>
+			<param>backend/menu/menu/index</param>
+			<description>Xem chi tiết menu</description>
+		</item>
+		<item>
+			<param>backend/menu/menu/listmenu</param>
+			<description>Xem danh sách menu</description>
+		</item>
+		<item>
+			<param>backend/menu/menu/createmenu</param>
+			<description>Tạo mới menu</description>
+		</item>
+		<item>
+			<param>backend/menu/menu/create</param>
+			<description>Chỉnh sửa menu</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Slide</title>
+		<item>
+			<param>backend/slide/slide/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/slide/slide/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/slide/slide/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/slide/slide/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+
+	<permissions>
+		<title>Cấu hình chung</title>
+		<item>
+			<param>backend/system/general/index</param>
+			<description>Xem toàn bộ</description>
+		</item>
+		<item>
+			<param>backend/system/general/translator</param>
+			<description>Xem bản dịch</description>
+		</item>
+	</permissions>
+
+	<permissions>
+		<title>Ngôn Ngữ</title>
+		<item>
+			<param>backend/language/language/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/language/language/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/language/language/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/language/language/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+
+   <permissions>
+      <title>Widget</title>
+      <item>
+         <param>backend/widget/widget/index</param>
+         <description>Xem</description>
+      </item>
+      <item>
+         <param>backend/widget/widget/create</param>
+         <description>Thêm</description>
+      </item>
+      <item>
+         <param>backend/widget/widget/update</param>
+         <description>Sửa</description>
+      </item>
+      <item>
+         <param>backend/widget/widget/delete</param>
+         <description>Xóa</description>
+      </item>
+   </permissions>
+
+	<permissions>
+		<title>Upload</title>
+		<item>
+			<param>All</param>
+			<description>Toàn quyền</description>
+		</item>
+		<item>
+			<param>folderView</param>
+			<description>Xem Folder</description>
+		</item>
+		<item>
+			<param>folderCreate</param>
+			<description>Thêm Folder</description>
+		</item>
+		<item>
+			<param>folderRename</param>
+			<description>Đổi tên Folder</description>
+		</item>
+		<item>
+			<param>folderDelete</param>
+			<description>Xóa Folder</description>
+		</item>
+		<item>
+			<param>fileView</param>
+			<description>Xem File</description>
+		</item>
+		<item>
+			<param>fileUpload</param>
+			<description>Upload File</description>
+		</item>
+		<item>
+			<param>fileRename</param>
+			<description>Đổi tên File</description>
+		</item>
+		<item>
+			<param>fileDelete</param>
+			<description>Xóa File</description>
+		</item>
+	</permissions>
+</module>
